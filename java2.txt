@@ -1,0 +1,15 @@
+class Main {
+    public static void main(String[] args) {
+    
+ 
+        String a = ("vova");
+ 
+
+        String b = ("vasya");
+ 
+        if (a.equals(b)) {
+            System.out.println("строки идентичны.");
+        } else {
+            System.out.println("строки не идентичны.");}
+    }
+}
