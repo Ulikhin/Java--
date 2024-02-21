@@ -4,9 +4,11 @@ public class Main
 	    int a;
 	    a = 6;
 	    int b = 3;
-	    int summa = a + b;
-	    
-	    System.out.println(summa);
+	    int resultat1 = a + b;
+	    int resultat2 = a - b;
+	    int resultat3 = a * b;
+	    int resultat4 = a / b;
+	    System.out.println(resultat4);
 	
 	}
 }
