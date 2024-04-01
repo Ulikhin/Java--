@@ -1,14 +1,25 @@
 public class Main
 {
 	public static void main(String[] args) {
-	    int a;
-	    a = 6;
-	    int b = 3;
-	    int resultat1 = a + b;
+	     int a = 6;
+        int b = 0;
+        
+        int resultat1 = a + b;
 	    int resultat2 = a - b;
 	    int resultat3 = a * b;
-	    int resultat4 = a / b;
-	    System.out.println(resultat4);
-	
-	}
+	   
+	    System.out.println(resultat1);
+	    System.out.println(resultat2);
+	    System.out.println(resultat3);
+        
+        
+        try {
+            int resultat4 = a / b;
+        
+            System.out.println(resultat4);
+        }catch (ArithmeticException e){
+            System.out.println("Делить на ноль - нельзя!");
+        }
+        
+    }
 }
