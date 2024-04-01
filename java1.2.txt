@@ -4,7 +4,7 @@ public class Main
 	     int a = 6;
         int b = 0;
         
-        int resultat1 = a + b;
+            int resultat1 = a + b;
 	    int resultat2 = a - b;
 	    int resultat3 = a * b;
 	   
