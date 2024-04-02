@@ -1,19 +1,15 @@
 public class Main
 {
 	public static void main(String[] args) {
-		 int a = 10;
-                 int b = 10;
-          switch(Integer.compare(a, b)) {
-              case -1 :
-                  System.out.println("a < b"); 
-                  break;
-              case 0 :
-                  System.out.println("a = b");
-                  break;
-              case 1 :
-                  System.out.println("a > b");
-                  break;
-          }
-    }
+         int a = 8;
+         int b = 7;
 
-	}
+if (a > b) {
+    System.out.println("a > b");
+} else if (a < b) {
+    System.out.println("a < b");
+} else {
+    System.out.println("a = b");
+}
+}
+}
